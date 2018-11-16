@@ -15,6 +15,10 @@ $ php artisan key:generate
 $ php artisan migrate
 ```
 - Start Server
+```sh
+$ php artisan serve
+```
+
 - Visit [localhost](http://127.0.0.1:8000/) for form submission
 - Visit [http://127.0.0.1:8000/api/user/{id}](http://127.0.0.1:8000/api/user/1) to get details of each id
 
